@@ -1,0 +1,26 @@
+[13:03:27] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[13:03:31] [Server thread/INFO]: Loading properties
+[13:03:31] [Server thread/INFO]: Default game type: SURVIVAL
+[13:03:31] [Server thread/INFO]: Generating keypair
+[13:03:31] [Server thread/INFO]: Starting Minecraft server on 192.168.101.8:25565
+[13:03:31] [Server thread/INFO]: Using default channel type
+[13:03:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:03:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:03:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:03:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:03:32] [Server thread/INFO]: Preparing level "LatamCraftWorld"
+[13:03:33] [Server thread/INFO]: Loaded 488 advancements
+[13:03:33] [Server thread/INFO]: Preparing start region for level 0
+[13:03:34] [Server thread/INFO]: Preparing spawn area: 28%
+[13:03:35] [Server thread/INFO]: Preparing spawn area: 96%
+[13:03:35] [Server thread/INFO]: Done (2,748s)! For help, type "help" or "?"
+[13:03:57] [Server thread/INFO]: Stopping the server
+[13:03:57] [Server thread/INFO]: Stopping server
+[13:03:57] [Server thread/INFO]: Saving players
+[13:03:57] [Server thread/INFO]: Saving worlds
+[13:03:57] [Server thread/INFO]: Saving chunks for level 'LatamCraftWorld'/overworld
+[13:03:57] [Server thread/INFO]: Saving chunks for level 'LatamCraftWorld'/the_nether
+[13:03:57] [Server thread/INFO]: Saving chunks for level 'LatamCraftWorld'/the_end
+[13:03:57] [Server Shutdown Thread/INFO]: Stopping server
+[13:03:57] [Server Shutdown Thread/INFO]: Saving players
+[13:03:57] [Server Shutdown Thread/INFO]: Saving worlds

@@ -1,0 +1,61 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 11/12/21 10:04 a. m.
+Description: Exception ticking world
+
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap$HashIterator.remove(HashMap.java:1507)
+	at on.d(SourceFile:198)
+	at oo.d(SourceFile:206)
+	at net.minecraft.server.MinecraftServer.D(SourceFile:624)
+	at nz.D(SourceFile:349)
+	at net.minecraft.server.MinecraftServer.C(SourceFile:560)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:464)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.base/java.util.HashMap$HashIterator.remove(HashMap.java:1507)
+	at on.d(SourceFile:198)
+	at oo.d(SourceFile:206)
+
+-- Affected level --
+Details:
+	Level name: LatamCraftWorld
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 717 Drop: 451
+	Level seed: 48
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-204,64,248), Chunk: (at 4,4,8 in -13,15; contains blocks -208,0,240 to -193,255,255), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 124387 game time, 104268 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 42736 (now: false), thunder time: 102248 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.D(SourceFile:624)
+	at nz.D(SourceFile:349)
+	at net.minecraft.server.MinecraftServer.C(SourceFile:560)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:464)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 11.0.12, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 91686536 bytes (87 MB) / 268435456 bytes (256 MB) up to 32212254720 bytes (30720 MB)
+	JVM Flags: 2 total; -Xmx30G -Xms4M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
